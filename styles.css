@@ -1,0 +1,108 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3498db;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    margin-bottom: 20px;
+}
+
+
+#city-input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#search-button {
+    background-color: #3498db;
+    border: none;
+    padding: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -1px; /* Remove the gap between input and button */
+}
+
+/* Weather icons container styles */
+.weather-icons {
+    display: flex;
+    justify-content: space-around;
+     /* Distribute icons evenly */
+}
+
+/* Individual weather icon styles */
+.weather-icon {
+    text-align: center;
+}
+
+.weather-icon img {
+    width: 40px; /* Adjust icon size as needed */
+}
+/* Search button styles */
+#search-button img {
+    width: 30px; /* Match the size of other weather icons */
+}
+
+.weather-icon p {
+    margin: 5px 0;
+    font-size: 16px; /* Moderate font size for temperature */
+    color: #333;
+}
+/* City container styles */
+.city-container {
+    text-align: center; /* Center text horizontally */
+    margin-top: 60px; /* Add some top margin for spacing */
+}
+/* styles.css */
+
+/* City name styles */
+.city-name-text {
+    font-size: 34px; /* Increase font size */
+}
+/* Temperature styles */
+.temperature {
+    text-align: center; /* Center text horizontally */
+    font-size: 24px; /* Adjust font size as needed */
+}
+/* Weather description styles */
+.weather-description {
+    text-align: center; /* Center text horizontally */
+    font-size: 16px; /* Adjust font size as needed */
+    margin-top: 10px; /* Add some top margin for spacing */
+}
+/* Back button styles */
+#back-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Add some top margin for spacing */
+}
+
+
+

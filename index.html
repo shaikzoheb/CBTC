@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherVue</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>WeatherVue</h1>
+        <!-- Search bar -->
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-button"><img src="search-icon.png" alt="Search"></button>
+        </div>
+       
+        <div class="weather-icons">
+            <div class="weather-icon">
+                <img src="cloud-icon.png" alt="Cloud">
+                <p>38°C</p>
+            </div>
+            <div class="weather-icon">
+                <img src="humidity-icon.png" alt="Humidity">
+                <p>24%</p>
+            </div>
+            <div class="weather-icon">
+                <img src="sun-icon.png" alt="Sun">
+                <p>40°C</p>
+            </div>
+        </div>
+  
+<div class="city-container">
+    <p class="city-name-text">HYDERABAD</p>
+    <p class="temperature">38�C</p>
+    <p class="weather-description">Weather is cloudy today</p>
+    <button id="back-button">Back</button>
+</div>
+
+
+        <div id="weather-info">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
