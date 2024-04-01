@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EmporifyX - Home</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>EmporifyX</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+  <h2>Welcome to EmporifyX</h2></section>
+  </section><p>Your one-stop destination for online shopping</p> <!-- Updated line -->
+</section><section><h2> ADD MORE </h2></section>
+
+  <section class="featured-products">
+    <h2>Featured Products</h2>
+    
+    <div class="product">
+      <img src="product1.jpg" alt="Product 1">
+      <h3>Product 1</h3>
+      <p>300/-</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="product2.jpg" alt="Product 2">
+      <h3>Product 2</h3>
+      <p>350/-</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 EmporifyX. All rights reserved.</p>
+</footer>
+</body>
+</html>
 
