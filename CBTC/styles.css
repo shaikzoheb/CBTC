@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+}
+
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+.featured-products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  flex: 1 0 20%; 
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 50%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.add-more-button {
+  display: block;
+  margin: 20px auto; /* Center the button */
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+    text-align: center; /* Center the text horizontally */
+    text-decoration: none; /* Remove underlines */
+    transition: background-color 0.3s ease; /* Add smooth transition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-more-button:hover {
+  background-color: #45a049;
+}
+
