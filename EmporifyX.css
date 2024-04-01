@@ -55,7 +55,7 @@ main {
 }
 
 .product img {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
@@ -65,22 +65,3 @@ footer {
   text-align: center;
   padding: 20px;
 }
-.add-more-button {
-  display: block;
-  margin: 20px auto; /* Center the button */
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-    text-align: center; /* Center the text horizontally */
-    text-decoration: none; /* Remove underlines */
-    transition: background-color 0.3s ease; /* Add smooth transition */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.add-more-button:hover {
-  background-color: #45a049;
-}
-
